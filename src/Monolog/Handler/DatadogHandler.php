@@ -87,7 +87,7 @@ class DatadogHandler extends AbstractProcessingHandler {
   protected function send(string $record): void {
     $headers = [
       'Content-Type:application/json',
-      'DD-API-KEY:' . $this->apiKey,
+        sprintf('DD-API-KEY:%s', $this->apiKey),
     ];
 
     $source = $this->getSource();

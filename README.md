@@ -1,6 +1,7 @@
 # Drupal Datadog module
 
-Uses a Monolog handler to send Logs to Datadog without a Datadog agent. Also there's a processor that maps the log levels from Drupal to Datadogs' log status.
+Uses a Monolog handler to send Logs to Datadog without a Datadog agent. Also there's a processor that maps the log levels from Drupal to Datadogs log status.
+Based on https://github.com/guspio/monolog-datadog and https://github.com/nohponex/monolog-datadog-handler/blob/master/src/DataDogHandler.php.
 
 ## Usage
 
